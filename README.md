@@ -70,7 +70,7 @@ replay buffer当时设为200，现在看来设置的不合理。
 
 训练5w个episode。每个episode固定18个step。
 
-loss图像和reward图像是在epsilon_greedy极度接近1的时候生成的，后续没有再对这个项目继续优化。
+loss图像和reward图像很丑是因为在epsilon_greedy极度接近1的时候生成的，而且没有做smooth，后续没有再对这个项目继续优化了。
 
 
 ## 强化学习相关：
