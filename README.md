@@ -5,6 +5,7 @@
 攻击过程中若进入防御舰艇的防御半径内则有一定几率被拦截，舰艇被攻击一定次数后死亡，
 同样的，可以根据任务需求，通过改变不同类型的舰艇的价值来调整导弹攻击的侧重点，
 综上，需要合理选择攻击目标和攻击顺序使得期望伤害最大化
+
 ![image](https://user-images.githubusercontent.com/32588806/110740733-7f60dd00-826e-11eb-81f0-7af663045c5c.png)
 
 
@@ -65,11 +66,13 @@ reward：
 
 输出样例及对应演示：
 样例一：环境二，位置攻击，无差别攻击
+
 ![image](https://user-images.githubusercontent.com/32588806/110740782-93a4da00-826e-11eb-815f-c4bd672ad78c.png)
 
 ![image](https://user-images.githubusercontent.com/32588806/110740791-96073400-826e-11eb-9374-8ab449b663bc.png)
 
 样例二：环境一，角度攻击，主攻航母
+
 ![image](https://user-images.githubusercontent.com/32588806/110752729-9e686a80-8280-11eb-95dd-9d3a3744adf1.png)
 
 ![image](https://user-images.githubusercontent.com/32588806/110752751-a45e4b80-8280-11eb-8202-54d130a0a0f8.png)
