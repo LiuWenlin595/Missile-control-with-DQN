@@ -1,0 +1,273 @@
+env:
+
+  angle: [10, 15, 20, 10, 15, 20, 10, 15, 20, 10, 15, 20, 10, 15, 20, 10, 15, 20]
+  target_mode: carrier
+  gamma_r: 0.5
+  belta_V: 0.25
+  punish_value_r: 2
+  n_missile: 18
+  n_carrier: 1
+  n_ship: 8
+  n_agent_type: 1
+  
+  missile_1:
+
+    x: 300
+    y: 10
+    type: 0
+    name: "Z1"
+    
+  missile_2:
+
+    x: 300
+    y: 20
+    type: 0
+    name: "Z2"
+    
+  missile_3:
+
+    x: 300
+    y: 30
+    type: 0
+    name: "Z3"
+    
+  missile_4:
+
+    x: 300
+    y: 40
+    type: 0
+    name: "Z4"
+    
+  missile_5:
+
+    x: 300
+    y: 50
+    type: 0
+    name: "Z5"
+    
+  missile_6:
+
+    x: 300
+    y: 60
+    type: 0
+    name: "Z6"
+    
+  missile_7:
+
+    x: 300
+    y: 70
+    type: 0
+    name: "Z7"
+    
+  missile_8:
+
+    x: 300
+    y: 80
+    type: 0
+    name: "Z8"
+    
+  missile_9:
+
+    x: 300
+    y: 90
+    type: 0
+    name: "Z9"
+    
+  missile_10:
+
+    x: 250
+    y: 40
+    type: 0
+    name: "Z11"
+
+  missile_11:
+
+    x: 250
+    y: 20
+    type: 0
+    name: "Z12"
+
+  missile_12:
+
+    x: 250
+    y: 0
+    type: 0
+    name: "Z13"
+
+  missile_13:
+
+    x: 250
+    y: -20
+    type: 0
+    name: "Z14"
+
+  missile_14:
+
+    x: 250
+    y: -40
+    type: 0
+    name: "Z15"
+
+  missile_15:
+
+    x: 225
+    y: 30
+    type: 0
+    name: "Z16"
+
+  missile_16:
+
+    x: 225
+    y: 10
+    type: 0
+    name: "Z17"
+
+  missile_17:
+
+    x: 225
+    y: -10
+    type: 0
+    name: "Z18"
+
+  missile_18:
+
+    x: 225
+    y: -30
+    type: 0
+    name: "Z19"
+
+  carrier_1:
+  
+    x: 400
+    y: 0
+    name: "T1_1"
+    radius: 0
+    passby_prob: 0
+    defend_prob: 0
+    value: 10
+    die_value: 10
+    total_loss: 0
+    alive: True
+    missile_x: [300, 250]
+    missile_y: [[0, 0, 0], [0, 0, 0]]
+
+  ship_1:
+
+    x: 350
+    y: 30
+    name: "T2_1"
+    radius: 25
+    passby_prob: 0.4
+    defend_prob: 0.6
+    value: 2
+    die_value: 2
+    total_loss: 0
+    alive: True
+    missile_x: [300, 250]
+    missile_y: [[59, 80, 117], [88, 130, 203]]
+    
+  ship_2:
+
+    x: 350
+    y: -30 
+    name: "T2_2"
+    radius: 25 
+    passby_prob: 0.4
+    defend_prob: 0.6
+    value: 2
+    die_value: 2
+    total_loss: 0
+    alive: True
+    missile_x: [300, 250]
+    missile_y: [[-59, -80, -117], [-88, -130, -203]]
+    
+  ship_3:
+
+    x: 375
+    y: 35
+    name: "T2_3"
+    radius: 25 
+    passby_prob: 0.4    
+    defend_prob: 0.6
+    value: 2
+    die_value: 2
+    total_loss: 0
+    alive: True
+    missile_x: [300, 250]
+    missile_y: [[78, 110, 165], [107, 160, 251]]
+    
+  ship_4:
+
+    x: 375
+    y: -35
+    name: "T2_4"
+    radius: 25 
+    passby_prob: 0.4 
+    defend_prob: 0.6
+    value: 2
+    die_value: 2
+    total_loss: 0
+    alive: True
+    missile_x: [300, 250]
+    missile_y: [[-78, -110, -165], [-107, -160, -251]]
+    
+  ship_5:
+
+    x: 390
+    y: 0
+    name: "T2_5"
+    radius: 12
+    passby_prob: 0.3
+    defend_prob: 0.5
+    value: 2
+    die_value: 2
+    total_loss: 0
+    alive: True
+    missile_x: [300, 250]
+    missile_y: [[0, 0, 0], [0, 0, 0]]
+    
+  ship_6:
+
+    x: 400
+    y: 10
+    name: "T2_6"
+    radius: 12
+    passby_prob: 0.3
+    defend_prob: 0.5
+    value: 2
+    die_value: 2
+    total_loss: 0
+    alive: True
+    missile_x: [300, 250]
+    missile_y: [[68, 110, 183], [97, 160, 270]]
+    
+  ship_7:
+
+    x: 410
+    y: 0
+    name: "T2_7"
+    radius: 12
+    passby_prob: 0.3
+    defend_prob: 0.5
+    value: 2
+    die_value: 2
+    total_loss: 0
+    alive: True
+    missile_x: [300, 250]
+    missile_y: [[0, 0, 0], [0, 0, 0]]
+    
+  ship_8:
+
+    x: 400
+    y: -10
+    name: "T2_8"
+    radius: 12
+    passby_prob: 0.3
+    defend_prob: 0.5
+    value: 2
+    die_value: 2
+    total_loss: 0
+    alive: True
+    missile_x: [300, 250]
+    missile_y: [[-68, -110, -183], [-97, -160, -270]]
+    

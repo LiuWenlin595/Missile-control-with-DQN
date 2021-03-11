@@ -1,0 +1,2 @@
+model_checkpoint_path: "G:\\IDEA\\IntelliJ IDEA 2018.2.4\\IdeaProject\\ReinforcementLearning\\final_SDQN/final_model/env2/hit_ship/missile_15/params.ckpt"
+all_model_checkpoint_paths: "G:\\IDEA\\IntelliJ IDEA 2018.2.4\\IdeaProject\\ReinforcementLearning\\final_SDQN/final_model/env2/hit_ship/missile_15/params.ckpt"
