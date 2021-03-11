@@ -5,19 +5,22 @@
 攻击过程中若进入防御舰艇的防御半径内则有一定几率被拦截，舰艇被攻击一定次数后死亡，
 同样的，可以根据任务需求，通过改变不同类型的舰艇的价值来调整导弹攻击的侧重点，
 综上，需要合理选择攻击目标和攻击顺序使得期望伤害最大化
-
+![image](https://user-images.githubusercontent.com/32588806/110740733-7f60dd00-826e-11eb-81f0-7af663045c5c.png)
 
 
 状态空间定义为18个导弹的目标选择，初始化为[-1]*18，每进行一个step填进去一个action(攻击目标)
 动作空间定义为可供选择的舰艇数量，如果有7个舰艇则action space~[0, 6]，只能取整数
 
+
 固定阵型默认两种，如下所示，可在configs文件夹中设计新的阵型
 ![image](https://user-images.githubusercontent.com/32588806/110739478-3c9e0580-826c-11eb-842e-01acdabdf65e.png)
+
 ![image](https://user-images.githubusercontent.com/32588806/110739530-53dcf300-826c-11eb-9864-4f963481f25d.png)
 
+
 导弹默认两种攻击方式：
-1. 位置攻击：18个导弹排成两排，位置固定，按照编号依次选择攻击目标
-2. 角度攻击：每个导弹首先选择攻击目标，然后根据角度偏向确定自己的发射位置
+位置攻击：18个导弹排成两排，位置固定，按照编号依次选择攻击目标
+角度攻击：每个导弹首先选择攻击目标，然后根据角度偏向确定自己的发射位置
 
 
 文件：
@@ -61,7 +64,18 @@ reward：
 
 
 输出样例及对应演示：
-样例一 位置攻击, 无差别攻击
-123
+样例一：环境二，位置攻击，无差别攻击
+![image](https://user-images.githubusercontent.com/32588806/110740782-93a4da00-826e-11eb-815f-c4bd672ad78c.png)
 
-样例三 角度攻击，主攻航母
+![image](https://user-images.githubusercontent.com/32588806/110740791-96073400-826e-11eb-9374-8ab449b663bc.png)
+
+样例二：环境一，角度攻击，主攻航母
+![image](https://user-images.githubusercontent.com/32588806/110752729-9e686a80-8280-11eb-95dd-9d3a3744adf1.png)
+
+![image](https://user-images.githubusercontent.com/32588806/110752751-a45e4b80-8280-11eb-8202-54d130a0a0f8.png)
+
+
+
+
+
+
