@@ -61,13 +61,17 @@ utils：工具包
 
 ## DQN：
 行动策略采用衰减的epsilon-greedy，目标策略采用贪婪，即标准的offpolicy DQN。
+
+target网络参数更新在update函数里进行，采用参数硬替换。
+
 折扣因子0.9，即主要朝前看十步。
 
-replay buffer当时设为200，现在看来比较不合理。
+replay buffer当时设为200，现在看来设置的不合理。
 
-训练5w个episode。
+训练5w个episode。每个episode固定18个step。
 
-target网络参数更新在update函数里进行，采用硬替换。
+loss图像和reward图像是在epsilon_greedy极度接近1的时候生成的，后续没有再对这个项目继续优化。
+
 
 ## 强化学习相关：
 ### observation space：
