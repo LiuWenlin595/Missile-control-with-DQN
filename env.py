@@ -37,7 +37,7 @@
 
 import numpy as np
 import math
-from final_SDQN.objects import *
+from objects import *
 
 
 class Select:

@@ -36,9 +36,9 @@ import argparse
 import sys
 import os
 import tensorflow as tf
-from final_SDQN.DQN import DeepQNetwork
-from final_SDQN.env import Select
-from final_SDQN.utils.config import load_config
+from DQN import DeepQNetwork
+from env import Select
+from utils.config import load_config
 import matplotlib as mpl
 import matplotlib.pyplot as plt
 import numpy as np
