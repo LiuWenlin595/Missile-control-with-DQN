@@ -108,7 +108,7 @@ loss图像和reward图像很丑是因为在epsilon_greedy极度接近1的时候�
 
 ![image](https://user-images.githubusercontent.com/32588806/110740791-96073400-826e-11eb-9374-8ab449b663bc.png)
 
-样例二：环境一，角度攻击，主攻航母
+样例二：环境一，30°角度攻击，主攻航母
 
 ![image](https://user-images.githubusercontent.com/32588806/110752729-9e686a80-8280-11eb-95dd-9d3a3744adf1.png)
 
