@@ -12,9 +12,13 @@
 ![image](https://user-images.githubusercontent.com/32588806/110740733-7f60dd00-826e-11eb-81f0-7af663045c5c.png)
 
 固定阵型默认两种，如下所示，可在configs文件夹中设计新的阵型
+
 阵型一：
+
 ![image](https://user-images.githubusercontent.com/32588806/110739478-3c9e0580-826c-11eb-842e-01acdabdf65e.png)
+
 阵型二：
+
 ![image](https://user-images.githubusercontent.com/32588806/110739530-53dcf300-826c-11eb-9864-4f963481f25d.png)
 
 
